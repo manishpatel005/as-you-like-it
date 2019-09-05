@@ -20,5 +20,3 @@ Ratings go from one to five. Both book IDs and user IDs are contiguous. For book
 Step2: We have modified the ratings to give new\_ratings.csv which contains 10k users and 6176 books. For these books the summary is stored in the file new\_books.csv and the embedding is stoed in file summary\_embeddings.txt (use pickle to load it). Note that the length of embeddings is 125. 
 
 Step3: We have ran CF models and got RMSE (Cosine) =0.8833 and RMSE(Pearson)=0.8708
-
-Step4: 
